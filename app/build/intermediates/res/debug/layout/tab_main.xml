@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textTab1"
+        android:background="#11223344"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tab1 info" />
+    
+    <TextView
+        android:id="@+id/textTab2"
+        android:background="#44556677"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tab2 info" />
+    
+    <TextView
+        android:id="@+id/textTab3"
+        android:background="#88991122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tab3 info" />
+
+</FrameLayout>
+<!-- From: file:/D:/work/android/learn/app/src/main/res/layout/tab_main.xml -->

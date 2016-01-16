@@ -1,0 +1,235 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:11:11
+	android:name
+		ADDED from AndroidManifest.xml:11:28
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.INTERNAT
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+application
+ADDED from AndroidManifest.xml:24:5
+	android:label
+		ADDED from AndroidManifest.xml:27:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:25:9
+	android:icon
+		ADDED from AndroidManifest.xml:26:9
+	android:theme
+		ADDED from AndroidManifest.xml:28:9
+activity#com.example.learn.MainActivity
+ADDED from AndroidManifest.xml:30:9
+	android:label
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:33:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:35:27
+activity#com.example.learn.checkboxActivity
+ADDED from AndroidManifest.xml:38:9
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+activity#com.example.learn.linearlayoutActivity
+ADDED from AndroidManifest.xml:40:9
+	android:name
+		ADDED from AndroidManifest.xml:41:13
+activity#com.example.learn.spinnerActivity
+ADDED from AndroidManifest.xml:42:9
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+activity#com.example.learn.tablelayoutActivity
+ADDED from AndroidManifest.xml:44:9
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+activity#com.example.learn.gallery
+ADDED from AndroidManifest.xml:46:9
+	android:name
+		ADDED from AndroidManifest.xml:47:13
+activity#com.example.learn.tabAct
+ADDED from AndroidManifest.xml:48:9
+	android:name
+		ADDED from AndroidManifest.xml:49:13
+activity#com.example.learn.listViewTest
+ADDED from AndroidManifest.xml:50:9
+	android:name
+		ADDED from AndroidManifest.xml:51:13
+activity#com.example.learn.simCursorAdp
+ADDED from AndroidManifest.xml:52:9
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+activity#com.example.learn.simAdpTest
+ADDED from AndroidManifest.xml:54:9
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+activity#com.example.learn.myAdpTest
+ADDED from AndroidManifest.xml:56:9
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+activity#com.example.learn.databaseActivity
+ADDED from AndroidManifest.xml:58:9
+	android:name
+		ADDED from AndroidManifest.xml:59:13
+activity#com.example.learn.http
+ADDED from AndroidManifest.xml:60:9
+	android:name
+		ADDED from AndroidManifest.xml:61:13
+activity#com.example.learn.LocationService
+ADDED from AndroidManifest.xml:62:9
+	android:name
+		ADDED from AndroidManifest.xml:63:13
+activity#com.example.learn.DrawPicture
+ADDED from AndroidManifest.xml:64:9
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+activity#com.example.learn.DrawShader
+ADDED from AndroidManifest.xml:66:9
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#com.example.learn.DrawTweenActivity
+ADDED from AndroidManifest.xml:68:9
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+activity#com.example.learn.DrawGif
+ADDED from AndroidManifest.xml:70:9
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+activity#com.example.learn.playSound
+ADDED from AndroidManifest.xml:72:9
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+activity#com.example.learn.fragment2Activity
+ADDED from AndroidManifest.xml:75:9
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+activity#com.example.learn.DrawerActivity
+ADDED from AndroidManifest.xml:78:9
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+activity#com.example.learn.VedioActivity
+ADDED from AndroidManifest.xml:81:9
+	android:name
+		ADDED from AndroidManifest.xml:82:13
+activity#com.example.learn.SlidingDrawActivity
+ADDED from AndroidManifest.xml:84:9
+	android:name
+		ADDED from AndroidManifest.xml:85:13
+activity#com.example.learn.bubbleActivity
+ADDED from AndroidManifest.xml:87:9
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+activity#com.example.learn.ExpendedTest
+ADDED from AndroidManifest.xml:90:9
+	android:name
+		ADDED from AndroidManifest.xml:91:13
+activity#com.example.learn.CameraActivity
+ADDED from AndroidManifest.xml:93:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:94:13
+	android:name
+		ADDED from AndroidManifest.xml:93:19
+activity#com.example.learn.fragment_activity
+ADDED from AndroidManifest.xml:96:9
+	android:name
+		ADDED from AndroidManifest.xml:96:19
+activity#com.example.learn.DrawTree
+ADDED from AndroidManifest.xml:97:9
+	android:name
+		ADDED from AndroidManifest.xml:97:19
+activity#com.example.learn.PinBallActivity
+ADDED from AndroidManifest.xml:98:9
+	android:name
+		ADDED from AndroidManifest.xml:98:19
+receiver#com.example.learn.androidReceiver1
+ADDED from AndroidManifest.xml:100:9
+	android:name
+		ADDED from AndroidManifest.xml:100:19
+intent-filter#com.example.learn.BROADCAST_1
+ADDED from AndroidManifest.xml:101:13
+action#com.example.learn.BROADCAST_1
+ADDED from AndroidManifest.xml:102:17
+	android:name
+		ADDED from AndroidManifest.xml:103:21
+receiver#com.example.learn.alarmReceiver
+ADDED from AndroidManifest.xml:107:9
+	android:name
+		ADDED from AndroidManifest.xml:107:19
+service#com.example.learn.UserService
+ADDED from AndroidManifest.xml:108:9
+	android:name
+		ADDED from AndroidManifest.xml:108:18
+action#com.example.learn.STOP
+ADDED from AndroidManifest.xml:109:13
+	android:name
+		ADDED from AndroidManifest.xml:109:21
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:110:13
+	android:name
+		ADDED from AndroidManifest.xml:110:23

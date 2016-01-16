@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screen_info"/>
+    
+    <AutoCompleteTextView
+        android:id="@+id/autoCplt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to linearLayout" />
+    
+    <TextView
+        android:id="@+id/btn0Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to check Box" />
+    
+    <EditText
+        android:id="@+id/btn1Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text" />"
+    
+    <Button
+        android:id="@+id/button2" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to spinner Box"/>
+    
+    <Button
+        android:id="@+id/button3" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to Table Layout"/>
+    
+    <Button
+        android:id="@+id/button4" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to Gallory"/>
+    
+    <Button
+        android:id="@+id/button5" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to Tab"/> 
+        
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to SQLite Test"/>
+    
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Http method"/>
+    
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Location"/>
+    
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"/>
+    
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Pick Up"/>
+    
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment" />
+    
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draw with Paint and Canvas" />
+    
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shader" />
+    
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tween animation" />
+    
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gif play" />
+    
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound play" />
+    
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Recorder" />
+    
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video" />
+    
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 2"/>
+    
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drawer" />
+    
+       <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sliding Drawer" />
+       
+     <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bubble" />
+     
+     <Button
+         android:id="@+id/button23"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Draw a Tree"/>
+     
+     <Button
+         android:id="@+id/button24"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="expandable ListView"/>
+     
+     <Button
+         android:id="@+id/button25"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="ball game"/>
+            
+</LinearLayout>
+</ScrollView><!-- From: file:/D:/work/android/learn/app/src/main/res/layout/activity_main.xml -->

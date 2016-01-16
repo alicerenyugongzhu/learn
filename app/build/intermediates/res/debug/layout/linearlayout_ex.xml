@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:weightSum="2">
+        
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+	        android:id="@+id/main_newRoute"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="main_ac_newRoute"
+	        android:onClick="btnNewRouteClicked"/>
+    
+    	<Button
+    	    style="?android:attr/borderlessButtonStyle"
+	        android:id="@+id/main_existingRoute"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:onClick="btnExistingRouteClicked"
+	        android:text="alert message"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:weightSum="2">
+    
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+	        android:id="@+id/startService"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="Start Service"
+	        android:onClick="startSerivceClick"/>
+    
+	    <Button
+	        style="?android:attr/borderlessButtonStyle"
+	        android:id="@+id/stopService"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="Stop Service"
+	        android:onClick="stopSerivceClick"/>
+        
+    </LinearLayout>
+    
+    
+    
+</LinearLayout><!-- From: file:/D:/work/android/learn/app/src/main/res/layout/linearlayout_ex.xml -->

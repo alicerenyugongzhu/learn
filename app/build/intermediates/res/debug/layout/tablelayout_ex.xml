@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >"
+    <TableRow>
+        <TextView 
+            android:text="user name" 
+            android:textStyle="bold" 
+            android:gravity="right" 
+            android:padding="3dp" />
+        <EditText 
+            android:id="@+id/uName" 
+            android:gravity="left"
+            android:padding="3dp" />
+    </TableRow>
+     
+    <TableRow>
+        <TextView 
+            android:text="password" 
+            android:textStyle="bold" 
+            android:gravity="right" 
+            android:padding="3dp" />
+        <EditText 
+            android:id="@+id/password" 
+            android:gravity="left"
+            android:padding="3dp" />
+    </TableRow>
+    
+    <TableRow>
+        <Button
+            android:id="@+id/write"
+            android:text="write"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:padding="3dp" />
+        <Button
+            android:id="@+id/read"
+            android:text="read"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:padding="3dp" />
+    </TableRow>
+        
+
+    <TableRow>
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+    
+    <TableRow>
+       <TimePicker 
+            android:id="@+id/timePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIMER PICKER"/>
+    </TableRow>
+    
+
+
+</TableLayout>
+<!-- From: file:/D:/work/android/learn/app/src/main/res/layout/tablelayout_ex.xml -->

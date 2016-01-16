@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <Button
+       android:id="@+id/loadVideo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Load Video"/>
+   <Button
+       android:id="@+id/startVideo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Start Video"/>
+   <Button 
+       android:id="@+id/stopVideo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Stop Video"/>
+   
+   <VideoView 
+       android:id="@+id/video"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"/>
+
+</LinearLayout>

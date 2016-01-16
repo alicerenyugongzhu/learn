@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#88323232"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spiner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ffff"/>
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1" />"
+    
+
+</LinearLayout>
+<!-- From: file:/D:/work/android/learn/app/src/main/res/layout/spinner_ex.xml -->

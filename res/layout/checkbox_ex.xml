@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/extraFromMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spiner0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <CheckBox 
+        android:id="@+id/selA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select A"/>
+    
+    <CheckBox
+        android:id="@+id/selB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:text="Select B"/>
+    
+    <Button
+        android:id="@+id/buttonSel"
+        android:enabled="false" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="done" />
+    
+   <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/groupTest"
+        android:checkedButton="@+id/radio0">
+        <RadioButton
+            android:id="@+id/radio0"
+            android:text="radio0"/>
+        <RadioButton
+            android:id="@+id/radio1"
+            android:text="radio1"/>
+   </RadioGroup>
+   
+   <Button
+        android:id="@+id/buttonRad"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="done" />
+   
+   <TextView
+       android:text="process bar 1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   
+   <ProgressBar
+       android:id="@+id/roundBar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       style="?android:attr/progressBarStyleSmall" 
+       android:max="50" />
+   
+   <TextView
+       android:text="process bar 2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+   <ProgressBar
+       android:id="@+id/lineBar"
+       style="?android:attr/progressBarStyleHorizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:max="100" />
+   
+   <Button
+       android:id="@+id/btnStart"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Start" />
+
+   
+   <TextView
+       android:id="@+id/textSeekBar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="SeekBar value" /> 
+       
+   <SeekBar
+       android:id="@+id/seekbar0"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:max="100"
+       android:process="50"/>
+   
+<RatingBar 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   style="?android:attr/ratingBarStyleIndicator"
+   android:id="@+id/ratingbar_Indicator"/>
+<RatingBar 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   style="?android:attr/ratingBarStyleSmall"
+   android:id="@+id/ratingbar_Small"
+   android:numStars="20"/>
+
+<RatingBar 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   style="?android:attr/ratingBarStyle"
+   android:id="@+id/ratingbar_default"
+   />
+
+
+   <TextView
+       android:id="@+id/textRate"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="used for the Scroll View" />
+ 
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="used for the Scroll View" />
+   
+   <ImageButton
+       android:id="@+id/imagebtn"
+       android:src="@drawable/image1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+   
+
+</ScrollView>

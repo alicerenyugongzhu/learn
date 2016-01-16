@@ -1,0 +1,34 @@
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"  
+    android:orientation="vertical" > 
+    <TextView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_vertical|center_horizontal"/> 
+    <SlidingDrawer 
+        android:id="@+id/slidingdrawer" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:content="@+id/content" 
+        android:handle="@+id/handle" 
+        android:orientation="vertical" > 
+        <ImageView 
+            android:id="@id/handle" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/kula" > 
+        </ImageView> 
+        <LinearLayout 
+            android:id="@id/content" 
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent" 
+            android:background="@drawable/image1"> 
+            <TextView 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent" 
+                android:text="隐藏的内容"/> 
+        </LinearLayout> 
+    </SlidingDrawer> 
+</LinearLayout> 
